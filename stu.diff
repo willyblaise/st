@@ -1,0 +1,13 @@
+diff --git a/st.h b/st.h    
+index 519b9bd..da36b34 100644    
+--- a/st.h    
++++ b/st.h    
+@@ -81,6 +81,8 @@ void die(const char *, ...);    
+ void redraw(void);    
+ void draw(void);    
+     
++void kscrolldown(const Arg *);    
++void kscrollup(const Arg *);    
+ void printscreen(const Arg *);      
+ void printsel(const Arg *);    
+ void sendbreak(const Arg *);  
